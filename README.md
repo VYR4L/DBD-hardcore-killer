@@ -186,7 +186,7 @@ The application uses local storage to persist run data:
 
 ## 📄 License
 
-This project is for educational and personal use.
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
 ## 🤝 Contributing
 
