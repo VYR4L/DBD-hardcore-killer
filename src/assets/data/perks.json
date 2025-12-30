@@ -1,0 +1,649 @@
+{
+  "perks": [
+    {
+      "id": "1",
+      "name": "Agitation",
+      "price": 2
+    },
+    {
+      "id": "2",
+      "name": "Alien Instinct",
+      "price": 1
+    },
+    {
+      "id": "3",
+      "name": "All-Shaking Thunder",
+      "price": 2
+    },
+    {
+      "id": "4",
+      "name": "Awakened Awareness",
+      "price": 1
+    },
+    {
+      "id": "5",
+      "name": "Bamboozle",
+      "price": 3
+    },
+    {
+      "id": "6",
+      "name": "Batteries Included",
+      "price": 2
+    },
+    {
+      "id": "7",
+      "name": "BBQ & Chili",
+      "price": 3
+    },
+    {
+      "id": "8",
+      "name": "Beast of Prey",
+      "price": 1
+    },
+    {
+      "id": "9",
+      "name": "Bitter Murmur",
+      "price": 1
+    },
+    {
+      "id": "10",
+      "name": "Blood Echo",
+      "price": 1
+    },
+    {
+      "id": "11",
+      "name": "Blood Favour",
+      "price": 3
+    },
+    {
+      "id": "12",
+      "name": "Blood Warden",
+      "price": 1
+    },
+    {
+      "id": "13",
+      "name": "Bloodhound",
+      "price": 0
+    },
+    {
+      "id": "14",
+      "name": "Brutal Strength",
+      "price": 2
+    },
+    {
+      "id": "15",
+      "name": "Call of Brine",
+      "price": 3
+    },
+    {
+      "id": "16",
+      "name": "Corrupt Intervention",
+      "price": 5
+    },
+    {
+      "id": "17",
+      "name": "Coulrophobia",
+      "price": 1
+    },
+    {
+      "id": "18",
+      "name": "Coup de Grace",
+      "price": 3
+    },
+    {
+      "id": "19",
+      "name": "Crowd Control",
+      "price": 2
+    },
+    {
+      "id": "20",
+      "name": "Cruel Limits",
+      "price": 1
+    },
+    {
+      "id": "21",
+      "name": "Dark Arrogance",
+      "price": 1
+    },
+    {
+      "id": "22",
+      "name": "Dark Devotion",
+      "price": 1
+    },
+    {
+      "id": "23",
+      "name": "Darkness Revealed",
+      "price": 1
+    },
+    {
+      "id": "24",
+      "name": "Dead Man's Switch",
+      "price": 3
+    },
+    {
+      "id": "25",
+      "name": "Deadlock",
+      "price": 3
+    },
+    {
+      "id": "26",
+      "name": "Deathbound",
+      "price": 1
+    },
+    {
+      "id": "27",
+      "name": "Deerstalker",
+      "price": 1
+    },
+    {
+      "id": "28",
+      "name": "Devour Hope",
+      "price": 3
+    },
+    {
+      "id": "29",
+      "name": "Discordance",
+      "price": 3
+    },
+    {
+      "id": "30",
+      "name": "Dissolution",
+      "price": 3
+    },
+    {
+      "id": "31",
+      "name": "Distressing",
+      "price": 0
+    },
+    {
+      "id": "32",
+      "name": "Dominance",
+      "price": 1
+    },
+    {
+      "id": "33",
+      "name": "Dragon's Grip",
+      "price": 2
+    },
+    {
+      "id": "34",
+      "name": "Dyling Light",
+      "price": 1
+    },
+    {
+      "id": "35",
+      "name": "Enduring",
+      "price": 2
+    },
+    {
+      "id": "36",
+      "name": "Eruption",
+      "price": 4
+    },
+    {
+      "id": "37",
+      "name": "Face the Darkness",
+      "price": 2
+    },
+    {
+      "id": "38",
+      "name": "Fire up",
+      "price": 2
+    },
+    {
+      "id": "39",
+      "name": "Floods of Rage",
+      "price": 2
+    },
+    {
+      "id": "40",
+      "name": "Forced Hesitation",
+      "price": 2
+    },
+    {
+      "id": "41",
+      "name": "Forced Penance",
+      "price": 1
+    },
+    {
+      "id": "42",
+      "name": "Forever Entwined",
+      "price": 2
+    },
+    {
+      "id": "43",
+      "name": "Franklin's Demise",
+      "price": 1
+    },
+    {
+      "id": "44",
+      "name": "Friends 'til the End",
+      "price": 3
+    },
+    {
+      "id": "45",
+      "name": "Furtive Chase",
+      "price": 2
+    },
+    {
+      "id": "46",
+      "name": "Genetic Limits",
+      "price": 2
+    },
+    {
+      "id": "47",
+      "name": "Gift of Pain",
+      "price": 3
+    },
+    {
+      "id": "48",
+      "name": "Grim Embrace",
+      "price": 4
+    },
+    {
+      "id": "49",
+      "name": "Hangman's Trick",
+      "price": 0
+    },
+    {
+      "id": "50",
+      "name": "Haunted Ground",
+      "price": 2
+    },
+    {
+      "id": "51",
+      "name": "Haywire",
+      "price": 2
+    },
+    {
+      "id": "52",
+      "name": "Help Wanted",
+      "price": 1
+    },
+    {
+      "id": "53",
+      "name": "Hoarder",
+      "price": 0
+    },
+    {
+      "id": "54",
+      "name": "Hubris",
+      "price": 2
+    },
+    {
+      "id": "55",
+      "name": "Hysteria",
+      "price": 1
+    },
+    {
+      "id": "56",
+      "name": "I'm All Ears",
+      "price": 2
+    },
+    {
+      "id": "57",
+      "name": "Infectious Fright",
+      "price": 2
+    },
+    {
+      "id": "58",
+      "name": "Insidious",
+      "price": 0
+    },
+    {
+      "id": "59",
+      "name": "Iron Grasp",
+      "price": 1
+    },
+    {
+      "id": "60",
+      "name": "Iron Maiden",
+      "price": 1
+    },
+    {
+      "id": "61",
+      "name": "Jagged Compass",
+      "price": 3
+    },
+    {
+      "id": "62",
+      "name": "Knock Out",
+      "price": 1
+    },
+    {
+      "id": "63",
+      "name": "Languid Touch",
+      "price": 1
+    },
+    {
+      "id": "64",
+      "name": "Lethal Pursuer",
+      "price": 3
+    },
+    {
+      "id": "65",
+      "name": "Leverage",
+      "price": 2
+    },
+    {
+      "id": "66",
+      "name": "Lightborn",
+      "price": 1
+    },
+    {
+      "id": "67",
+      "name": "Make Your Choice",
+      "price": 2
+    },
+    {
+      "id": "68",
+      "name": "Machine Learning",
+      "price": 2
+    },
+    {
+      "id": "69",
+      "name": "Mad Grit",
+      "price": 1
+    },
+    {
+      "id": "70",
+      "name": "Merciless Storm",
+      "price": 2
+    },
+    {
+      "id": "71",
+      "name": "Mindbreaker",
+      "price": 2
+    },
+    {
+      "id": "72",
+      "name": "Monitor & Abuse",
+      "price": 1
+    },
+    {
+      "id": "73",
+      "name": "Monsterous Shrine",
+      "price": 1
+    },
+    {
+      "id": "74",
+      "name": "Nemesis",
+      "price": 1
+    },
+    {
+      "id": "75",
+      "name": "No One Escapes Death",
+      "price": 3
+    },
+    {
+      "id": "76",
+      "name": "No Quarter",
+      "price": 1
+    },
+    {
+      "id": "77",
+      "name": "No Way Out",
+      "price": 3
+    },
+    {
+      "id": "78",
+      "name": "None Are Free",
+      "price": 2
+    },
+    {
+      "id": "79",
+      "name": "Nowhere to Hide",
+      "price": 2
+    },
+    {
+      "id": "80",
+      "name": "Nurses Calling",
+      "price": 2
+    },
+    {
+      "id": "81",
+      "name": "Oppression",
+      "price": 3
+    },
+    {
+      "id": "82",
+      "name": "Overcharge",
+      "price": 2
+    },
+    {
+      "id": "83",
+      "name": "Overture of Doom",
+      "price": 1
+    },
+    {
+      "id": "84",
+      "name": "Overwhelming Presence",
+      "price": 2
+    },
+    {
+      "id": "85",
+      "name": "Pain Resonance",
+      "price": 5
+    },
+    {
+      "id": "86",
+      "name": "Pentimento",
+      "price": 1
+    },
+    {
+      "id": "87",
+      "name": "Phantom Fear",
+      "price": 2
+    },
+    {
+      "id": "88",
+      "name": "Play with Your Food",
+      "price": 2
+    },
+    {
+      "id": "89",
+      "name": "Plaything",
+      "price": 2
+    },
+    {
+      "id": "90",
+      "name": "Pop Goes the Weasel",
+      "price": 5
+    },
+    {
+      "id": "91",
+      "name": "Predator",
+      "price": 2
+    },
+    {
+      "id": "92",
+      "name": "Rancor",
+      "price": 2
+    },
+    {
+      "id": "93",
+      "name": "Rapid Brutality",
+      "price": 3
+    },
+    {
+      "id": "94",
+      "name": "Ravenous",
+      "price": 2
+    },
+    {
+      "id": "95",
+      "name": "Remember Me",
+      "price": 2
+    },
+    {
+      "id": "96",
+      "name": "Retribution",
+      "price": 2
+    },
+    {
+      "id": "97",
+      "name": "Ruin",
+      "price": 4
+    },
+    {
+      "id": "98",
+      "name": "Save the Best For Last",
+      "price": 2
+    },
+    {
+      "id": "99",
+      "name": "Septic Touch",
+      "price": 0
+    },
+    {
+      "id": "100",
+      "name": "Shadowborn",
+      "price": 0
+    },
+    {
+      "id": "101",
+      "name": "Shattered Hope",
+      "price": 0
+    },
+    {
+      "id": "102",
+      "name": "Sloppy Butcher",
+      "price": 3
+    },
+    {
+      "id": "103",
+      "name": "Spirit Fury",
+      "price": 2
+    },
+    {
+      "id": "104",
+      "name": "Starstruck",
+      "price": 2
+    },
+    {
+      "id": "105",
+      "name": "Stridor",
+      "price": 1
+    },
+    {
+      "id": "106",
+      "name": "Superior Anatomy",
+      "price": 2
+    },
+    {
+      "id": "107",
+      "name": "Surge",
+      "price": 3
+    },
+    {
+      "id": "108",
+      "name": "Surveillance",
+      "price": 1
+    },
+    {
+      "id": "109",
+      "name": "Territorial Imperative",
+      "price": 1
+    },
+    {
+      "id": "110",
+      "name": "Thanatophobia",
+      "price": 2
+    },
+    {
+      "id": "111",
+      "name": "Third Seal",
+      "price": 1
+    },
+    {
+      "id": "112",
+      "name": "Thrill of the Hunt",
+      "price": 2
+    },
+    {
+      "id": "113",
+      "name": "Thrilling Tremors",
+      "price": 2
+    },
+    {
+      "id": "114",
+      "name": "THWACK!",
+      "price": 1
+    },
+    {
+      "id": "115",
+      "name": "Tinkerer",
+      "price": 3
+    },
+    {
+      "id": "116",
+      "name": "Trail of Torment",
+      "price": 2
+    },
+    {
+      "id": "117",
+      "name": "Two Can Play",
+      "price": 1
+    },
+    {
+      "id": "118",
+      "name": "Ultimate Weapon",
+      "price": 1
+    },
+    {
+      "id": "119",
+      "name": "Unbound",
+      "price": 2
+    },
+    {
+      "id": "120",
+      "name": "Undone",
+      "price": 0
+    },
+    {
+      "id": "121",
+      "name": "Undying",
+      "price": 2
+    },
+    {
+      "id": "122",
+      "name": "Unforseen",
+      "price": 2
+    },
+    {
+      "id": "123",
+      "name": "Unnerving Presence",
+      "price": 1
+    },
+    {
+      "id": "124",
+      "name": "Unrelenting",
+      "price": 1
+    },
+    {
+      "id": "125",
+      "name": "Wandering Eye",
+      "price": 1
+    },
+    {
+      "id": "126",
+      "name": "Weave Attunement",
+      "price": 2
+    },
+    {
+      "id": "127",
+      "name": "Whispers",
+      "price": 2
+    },
+    {
+      "id": "128",
+      "name": "Wretched Fate",
+      "price": 1
+    },
+    {
+      "id": "129",
+      "name": "Zanchin Tactics",
+      "price": 2
+    }
+  ]
+}
