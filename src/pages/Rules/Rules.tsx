@@ -9,7 +9,6 @@ import {
   ListItem,
   ListItemText,
   Chip,
-  CardMedia,
 } from '@mui/material';
 import {
   AttachMoney,
@@ -18,7 +17,6 @@ import {
   LocalHospital,
   Schedule,
 } from '@mui/icons-material';
-import spookyLoopzBanner from '@/assets/images/spooky-loopz-banner.png';
 
 const Rules: React.FC = () => {
   return (
@@ -31,20 +29,7 @@ const Rules: React.FC = () => {
   </Typography>
 
   <Box sx={{ mt: 4, display: 'flex', flexDirection: 'column', gap: 3 }}>
-  {/* Spooky Loopz Banner */}
-  <Card>
-    <CardMedia
-      component="img"
-      image={spookyLoopzBanner}
-      alt="Spooky Loopz"
-      sx={{ width: '100%', height: 'auto' }}
-    />
-    <CardContent sx={{ textAlign: 'center', py: 2 }}>
-      <Typography variant="h6" fontWeight={600} color="primary">
-        The GOAT.
-      </Typography>
-    </CardContent>
-  </Card>
+
 
   {/* Starting Conditions */}
   <Card>
