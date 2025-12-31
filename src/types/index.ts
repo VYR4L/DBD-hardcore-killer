@@ -64,12 +64,14 @@ export interface Killer {
   tier: KillerTier;
   price: number;
   status: KillerStatus;
+  image: string;
 }
 
 export interface Perk {
   id: string;
   name: string;
   price: number;
+  image: string;
 }
 
 export interface Penalty {

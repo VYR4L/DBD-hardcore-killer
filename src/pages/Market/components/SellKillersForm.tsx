@@ -21,6 +21,7 @@ import { DataService } from '@/services/DataService';
 import { useRun } from '@/context/RunContext';
 import { useCurrency } from '@/hooks/useCurrency';
 import { KillerTier, Rank } from '@/types';
+import { KillerChip } from '@components/atoms/KillerChip';
 
 export const SellKillersForm: React.FC = () => {
   const { runData, addSale } = useRun();
@@ -144,11 +145,19 @@ export const SellKillersForm: React.FC = () => {
                       />
                     }
                     label={
-                      <Box>
-                        <Typography variant="body2">{killer.name}</Typography>
-                        <Typography variant="caption" color="text.secondary">
-                          ${killer.price}
-                        </Typography>
+                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                        <KillerChip
+                          killerId={killer.id}
+                          size="small"
+                          showName={false}
+                          showPrice={false}
+                        />
+                        <Box>
+                          <Typography variant="body2">{killer.name}</Typography>
+                          <Typography variant="caption" color="text.secondary">
+                            ${killer.price}
+                          </Typography>
+                        </Box>
                       </Box>
                     }
                   />
@@ -238,17 +247,17 @@ export const SellKillersForm: React.FC = () => {
             <Typography variant="subtitle2" color="text.secondary" gutterBottom>
               Killers to be sold:
             </Typography>
-            {selectedKillers.map(id => {
-              const killer = allKillers.find(k => k.id === id);
-              return (
-                <Chip 
+            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
+              {selectedKillers.map(id => (
+                <KillerChip 
                   key={id}
-                  label={`${killer?.name} ($${killer?.price})`}
+                  killerId={id}
                   size="small"
-                  sx={{ mr: 1, mb: 1 }}
+                  showName={false}
+                  showPrice={false}
                 />
-              );
-            })}
+              ))}
+            </Box>
           </Box>
           <Box sx={{ mt: 2, p: 2, bgcolor: 'success.main', color: 'success.contrastText', borderRadius: 1 }}>
             <Typography variant="h6">

@@ -3,647 +3,820 @@
     {
       "id": "1",
       "name": "Agitation",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/IconPerks_agitation.png"
     },
     {
       "id": "2",
       "name": "Alien Instinct",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/34/IconPerks_alienInstinct.png"
     },
     {
       "id": "3",
       "name": "All-Shaking Thunder",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6a/IconPerks_allShakingThunder.png"
     },
     {
       "id": "4",
       "name": "Awakened Awareness",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/IconPerks_awakenedAwareness.png"
     },
     {
       "id": "5",
       "name": "Bamboozle",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7a/IconPerks_bamboozle.png"
     },
     {
       "id": "6",
       "name": "Batteries Included",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/IconPerks_batteriesIncluded.png"
     },
     {
       "id": "7",
       "name": "BBQ & Chili",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/51/IconPerks_barbecueAndChilli.png"
     },
     {
       "id": "8",
       "name": "Beast of Prey",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/IconPerks_beastOfPrey.png"
     },
     {
       "id": "9",
       "name": "Bitter Murmur",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5a/IconPerks_bitterMurmur.png"
     },
     {
       "id": "10",
       "name": "Blood Echo",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c3/IconPerks_bloodEcho.png"
     },
     {
       "id": "11",
       "name": "Blood Favour",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6b/IconPerks_hexBloodFavour.png"
     },
     {
       "id": "12",
       "name": "Blood Warden",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/eb/IconPerks_bloodWarden.png"
     },
     {
       "id": "13",
       "name": "Bloodhound",
-      "price": 0
+      "price": 0,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e0/IconPerks_bloodhound.png"
     },
     {
       "id": "14",
       "name": "Brutal Strength",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3d/IconPerks_brutalStrength.png"
     },
     {
       "id": "15",
       "name": "Call of Brine",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3b/IconPerks_callOfBrine.png"
     },
     {
       "id": "16",
       "name": "Corrupt Intervention",
-      "price": 5
+      "price": 5,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/10/IconPerks_corruptIntervention.png"
     },
     {
       "id": "17",
       "name": "Coulrophobia",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/45/IconPerks_coulrophobia.png"
     },
     {
       "id": "18",
       "name": "Coup de Grace",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bd/IconPerks_coupDeGr%C3%A2ce.png"
     },
     {
       "id": "19",
       "name": "Crowd Control",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f1/IconPerks_hexCrowdControl.png"
     },
     {
       "id": "20",
       "name": "Cruel Limits",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/IconPerks_cruelLimits.png"
     },
     {
       "id": "21",
       "name": "Dark Arrogance",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b1/IconPerks_darkArrogance.png"
     },
     {
       "id": "22",
       "name": "Dark Devotion",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/IconPerks_darkDevotion.png"
     },
     {
       "id": "23",
       "name": "Darkness Revealed",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ed/IconPerks_darknessRevealed.png"
     },
     {
       "id": "24",
       "name": "Dead Man's Switch",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c3/IconPerks_deadMansSwitch.png"
     },
     {
       "id": "25",
       "name": "Deadlock",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/IconPerks_deadlock.png"
     },
     {
       "id": "26",
       "name": "Deathbound",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e7/IconPerks_deathbound.png"
     },
     {
       "id": "27",
       "name": "Deerstalker",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/IconPerks_deerstalker.png"
     },
     {
       "id": "28",
       "name": "Devour Hope",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c9/IconPerks_hexDevourHope.png"
     },
     {
       "id": "29",
       "name": "Discordance",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/82/IconPerks_discordance.png"
     },
     {
       "id": "30",
       "name": "Dissolution",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/IconPerks_dissolution.png"    
     },
     {
       "id": "31",
       "name": "Distressing",
-      "price": 0
+      "price": 0,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/94/IconPerks_distressing.png"
     },
     {
       "id": "32",
       "name": "Dominance",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8d/IconPerks_Dominance.png"
     },
     {
       "id": "33",
       "name": "Dragon's Grip",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/ff/IconPerks_dragonsGrip.png"
     },
     {
       "id": "34",
       "name": "Dyling Light",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/48/IconPerks_dyingLight.png"
     },
     {
       "id": "35",
       "name": "Enduring",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/94/IconPerks_enduring.png"
     },
     {
       "id": "36",
       "name": "Eruption",
-      "price": 4
+      "price": 4,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/dd/IconPerks_eruption.png"
     },
     {
       "id": "37",
       "name": "Face the Darkness",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/IconPerks_hexFaceTheDarkness.png"
     },
     {
       "id": "38",
       "name": "Fire up",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5c/IconPerks_fireUp.png"
     },
     {
       "id": "39",
       "name": "Floods of Rage",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/IconPerks_scourgeHookFloodsOfRage.png"
     },
     {
       "id": "40",
       "name": "Forced Hesitation",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/IconPerks_forcedHesitation.png"
     },
     {
       "id": "41",
       "name": "Forced Penance",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/IconPerks_forcedPenance.png"
     },
     {
       "id": "42",
       "name": "Forever Entwined",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6d/IconPerks_foreverEntwined.png"
     },
     {
       "id": "43",
       "name": "Franklin's Demise",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/IconPerks_franklinsDemise.png"
     },
     {
       "id": "44",
       "name": "Friends 'til the End",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/IconPerks_friendsTilTheEnd.png"
     },
     {
       "id": "45",
       "name": "Furtive Chase",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/94/IconPerks_furtiveChase.png"
     },
     {
       "id": "46",
       "name": "Genetic Limits",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6d/IconPerks_geneticLimits.png"
+    },
+    {
+      "id": "130",
+      "name": "Game Afoot",
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/53/IconPerks_gameAfoot.png"
+    },
+    {
+      "id": "131",
+      "name": "Gearhed",
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fd/IconPerks_gearhead.png"
     },
     {
       "id": "47",
       "name": "Gift of Pain",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/26/IconPerks_scourgeHookGiftOfPain.png"
+
     },
     {
       "id": "48",
       "name": "Grim Embrace",
-      "price": 4
+      "price": 4,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/IconPerks_grimEmbrace.png"
     },
     {
       "id": "49",
       "name": "Hangman's Trick",
-      "price": 0
+      "price": 0,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9a/IconPerks_scourgeHookHangmansTrick.png"
     },
     {
       "id": "50",
       "name": "Haunted Ground",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c4/IconPerks_hexHauntedGround.png"
     },
     {
       "id": "51",
       "name": "Haywire",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/ff/IconPerks_haywire.png"
     },
     {
       "id": "52",
       "name": "Help Wanted",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e9/IconPerks_helpWanted.png"
     },
     {
       "id": "53",
       "name": "Hoarder",
-      "price": 0
+      "price": 0,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/23/IconPerks_hoarder.png"
     },
     {
       "id": "54",
       "name": "Hubris",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/aa/IconPerks_hubris.png"
+    },
+    {
+      "id": "132",
+      "name": "Human Greed",
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/06/IconPerks_HumanGreed.png"
+    },
+    {
+      "id": "133",
+      "name": "Huntress Lullaby",
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/11/IconPerks_hexHuntressLullaby.png"
     },
     {
       "id": "55",
       "name": "Hysteria",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3a/IconPerks_hysteria.png"
+
     },
     {
       "id": "56",
       "name": "I'm All Ears",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e3/IconPerks_imAllEars.png"
     },
     {
       "id": "57",
       "name": "Infectious Fright",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6d/IconPerks_infectiousFright.png"
     },
     {
       "id": "58",
       "name": "Insidious",
-      "price": 0
+      "price": 0,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/40/IconPerks_insidious.png"
     },
     {
       "id": "59",
       "name": "Iron Grasp",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/14/IconPerks_ironGrasp.png"
     },
     {
       "id": "60",
       "name": "Iron Maiden",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b0/IconPerks_ironMaiden.png"
     },
     {
       "id": "61",
       "name": "Jagged Compass",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
     },
     {
       "id": "62",
       "name": "Knock Out",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/52/IconPerks_knockOut.png"
     },
     {
       "id": "63",
       "name": "Languid Touch",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a3/IconPerks_languidTouch.png"
     },
     {
       "id": "64",
       "name": "Lethal Pursuer",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/61/IconPerks_lethalPursuer.png"
     },
     {
       "id": "65",
       "name": "Leverage",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/IconPerks_leverage.png"
     },
     {
       "id": "66",
       "name": "Lightborn",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/48/IconPerks_lightborn.png"
     },
     {
       "id": "67",
       "name": "Make Your Choice",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6b/IconPerks_makeYourChoice.png"
     },
     {
       "id": "68",
       "name": "Machine Learning",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/IconPerks_machineLearning.png"
     },
     {
       "id": "69",
       "name": "Mad Grit",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/da/IconPerks_madGrit.png"
     },
     {
       "id": "70",
       "name": "Merciless Storm",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/IconPerks_mercilessStorm.png"
     },
     {
       "id": "71",
       "name": "Mindbreaker",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0f/IconPerks_mindbreaker.png"
     },
     {
       "id": "72",
       "name": "Monitor & Abuse",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/60/IconPerks_monitorAndAbuse.png"
     },
     {
       "id": "73",
       "name": "Monsterous Shrine",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/IconPerks_scourgeHookMonstrousShrine.png"
     },
     {
       "id": "74",
       "name": "Nemesis",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/33/IconPerks_nemesis.png"
     },
     {
       "id": "75",
       "name": "No One Escapes Death",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
     },
     {
       "id": "76",
       "name": "No Quarter",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c3/IconPerks_noQuarter.png"
     },
     {
       "id": "77",
       "name": "No Way Out",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bb/IconPerks_noWayOut.png"
     },
     {
       "id": "78",
       "name": "None Are Free",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5c/IconPerks_noneAreFree.png"
     },
     {
       "id": "79",
       "name": "Nowhere to Hide",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/29/IconPerks_nowhereToHide.png"
+    },
+    {
+      "id": "134",
+      "name": "Nothing but Misery",
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6f/IconPerks_hexNothingButMisery.png"
     },
     {
       "id": "80",
       "name": "Nurses Calling",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/IconPerks_aNursesCalling.png"
     },
     {
       "id": "81",
       "name": "Oppression",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a1/IconPerks_oppression.png"
     },
     {
       "id": "82",
       "name": "Overcharge",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c3/IconPerks_overcharge.png"
     },
     {
       "id": "83",
       "name": "Overture of Doom",
-      "price": 1
+      "price": 1,
+      "image": "https://deadbydaylight.wiki.gg/images/IconPerks_HexOvertureOfDoom.png?a22807&format=original"
     },
     {
       "id": "84",
       "name": "Overwhelming Presence",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9a/IconPerks_overwhelmingPresence.png"
     },
     {
       "id": "85",
       "name": "Pain Resonance",
-      "price": 5
+      "price": 5,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/IconPerks_scourgeHookPainResonance.png"
     },
     {
       "id": "86",
       "name": "Pentimento",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/IconPerks_hexPentimento.png"
     },
     {
       "id": "87",
       "name": "Phantom Fear",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/IconPerks_phantomFear.png"
     },
     {
       "id": "88",
       "name": "Play with Your Food",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/18/IconPerks_playWithYourFood.png"
     },
     {
       "id": "89",
       "name": "Plaything",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/18/IconPerks_hexPlaything.png"
     },
     {
       "id": "90",
       "name": "Pop Goes the Weasel",
-      "price": 5
+      "price": 5,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0f/IconPerks_popGoesTheWeasel.png"
     },
     {
       "id": "91",
       "name": "Predator",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/73/IconPerks_predator.png"
     },
     {
       "id": "92",
       "name": "Rancor",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a2/IconPerks_rancor.png"
     },
     {
       "id": "93",
       "name": "Rapid Brutality",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d4/IconPerks_rapidBrutality.png"
     },
     {
       "id": "94",
       "name": "Ravenous",
-      "price": 2
+      "price": 2,
+      "image": "https://deadbydaylight.wiki.gg/images/IconPerks_Ravenous.png?c9c858&format=original"
     },
     {
       "id": "95",
       "name": "Remember Me",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/IconPerks_rememberMe.png"
     },
     {
       "id": "96",
       "name": "Retribution",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ab/IconPerks_hexRetribution.png"
     },
     {
       "id": "97",
       "name": "Ruin",
-      "price": 4
+      "price": 4,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a2/IconPerks_hexRuin.png"
     },
     {
       "id": "98",
       "name": "Save the Best For Last",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6a/IconPerks_saveTheBestForLast.png"
     },
     {
       "id": "99",
       "name": "Septic Touch",
-      "price": 0
+      "price": 0,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d8/IconPerks_septicTouch.png"
     },
     {
       "id": "100",
       "name": "Shadowborn",
-      "price": 0
+      "price": 0,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/IconPerks_shadowborn.png"
     },
     {
       "id": "101",
       "name": "Shattered Hope",
-      "price": 0
+      "price": 0,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/aa/IconPerks_shatteredHope.png"
     },
     {
       "id": "102",
       "name": "Sloppy Butcher",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5a/IconPerks_sloppyButcher.png"
+    },
+    {
+      "id": "135",
+      "name": "Spies from the Shadows",
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b1/IconPerks_spiesFromTheShadows.png"
     },
     {
       "id": "103",
       "name": "Spirit Fury",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a6/IconPerks_spiritFury.png"
     },
     {
       "id": "104",
       "name": "Starstruck",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/IconPerks_starstruck.png"
     },
     {
       "id": "105",
       "name": "Stridor",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/32/IconPerks_stridor.png"
     },
     {
       "id": "106",
       "name": "Superior Anatomy",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4a/IconPerks_superiorAnatomy.png"
     },
     {
       "id": "107",
       "name": "Surge",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3b/IconPerks_surge.png"
     },
     {
       "id": "108",
       "name": "Surveillance",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/eb/IconPerks_surveillance.png"
+    },
+    {
+      "id": "136",
+      "name": "Terminus",
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/IconPerks_terminus.png"
     },
     {
       "id": "109",
       "name": "Territorial Imperative",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2a/IconPerks_territorialImperative.png"
     },
     {
       "id": "110",
       "name": "Thanatophobia",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a2/IconPerks_thanatophobia.png"
     },
     {
       "id": "111",
       "name": "Third Seal",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/IconPerks_hexTheThirdSeal.png"
     },
     {
       "id": "112",
       "name": "Thrill of the Hunt",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/IconPerks_hexThrillOfTheHunt.png"
     },
     {
       "id": "113",
       "name": "Thrilling Tremors",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b8/IconPerks_thrillingTremors.png"
     },
     {
       "id": "114",
       "name": "THWACK!",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bb/IconPerks_thwack.png"
     },
     {
       "id": "115",
       "name": "Tinkerer",
-      "price": 3
+      "price": 3,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d9/IconPerks_tinkerer.png"
     },
     {
       "id": "116",
       "name": "Trail of Torment",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/94/IconPerks_trailOfTorment.png"
     },
     {
       "id": "117",
       "name": "Two Can Play",
-      "price": 1
+      "price": 1,
+      "image": "https://deadbydaylight.wiki.gg/images/IconPerks_hexTwoCanPlay.png?2338db&format=original"
     },
     {
       "id": "118",
       "name": "Ultimate Weapon",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8a/IconPerks_ultimateWeapon.png"
     },
     {
       "id": "119",
       "name": "Unbound",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/IconPerks_unbound.png"
     },
     {
       "id": "120",
       "name": "Undone",
-      "price": 0
+      "price": 0,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/11/IconPerks_undone.png"
     },
     {
       "id": "121",
       "name": "Undying",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/IconPerks_hexUndying.png"
     },
     {
       "id": "122",
       "name": "Unforseen",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/IconPerks_unforeseen.png"
     },
     {
       "id": "123",
       "name": "Unnerving Presence",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a4/IconPerks_unnervingPresence.png"
     },
     {
       "id": "124",
       "name": "Unrelenting",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/57/IconPerks_unrelenting.png"
     },
     {
       "id": "125",
       "name": "Wandering Eye",
-      "price": 1
+      "price": 1,
+      "image": "https://deadbydaylight.wiki.gg/images/IconPerks_WanderingEye.png?80a47c&format=original"
     },
     {
       "id": "126",
       "name": "Weave Attunement",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/de/IconPerks_weaveAttunement.png"
     },
     {
       "id": "127",
       "name": "Whispers",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bb/IconPerks_whispers.png"
     },
     {
       "id": "128",
       "name": "Wretched Fate",
-      "price": 1
+      "price": 1,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/81/IconPerks_HexWretchedFate.png"
     },
     {
       "id": "129",
       "name": "Zanchin Tactics",
-      "price": 2
+      "price": 2,
+      "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/IconPerks_zanshinTactics.png"
     }
   ]
 }

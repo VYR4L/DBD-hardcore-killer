@@ -20,7 +20,7 @@ import {
 
 const Rules: React.FC = () => {
   return (
-  <Container maxWidth="lg" sx={{ py: 4 }}>
+  <Container maxWidth="xl" sx={{ py: 4 }}>
   <Typography variant="h3" gutterBottom fontWeight={700} color="primary">
   Hardcore Killer - Season 4
   </Typography>

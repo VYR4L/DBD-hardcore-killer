@@ -9,6 +9,8 @@ import {
 } from '@mui/material';
 import { useRun } from '@/context/RunContext';
 import { CurrencyChip } from '@components/atoms/CurrencyChip';
+import { RankChip } from '@components/atoms/RankChip';
+import { PipDisplay } from '@components/atoms/PipDisplay';
 import { KillerStatusDisplay } from './components/KillerStatusDisplay';
 import { MatchHistoryTable } from './components/MatchHistoryTable';
 import { RunSummary } from './components/RunSummary';
@@ -17,27 +19,44 @@ import { MatchEntryForm } from './components/MatchEntryForm';
 const CurrentRun: React.FC = () => {
   const { runData } = useRun();
 
+  // Determine max pips based on current rank
+  const getMaxPips = (rank: string): number => {
+    if (rank.includes('Ash IV') || rank.includes('Ash III')) return 3;
+    if (rank.includes('Ash II') || rank.includes('Ash I') || rank.includes('Bronze I')) return 4;
+    return 5; // Silver, Gold, Iridescent
+  };
+
+  const maxPips = getMaxPips(runData.currentRank);
+
   return (
     <Container maxWidth="xl" sx={{ py: 4 }}>
-      <Box display="flex" justifyContent="space-between" alignItems="center" mb={3}>
-        <Typography variant="h3" fontWeight={700} color="primary">
-          Current Run
-        </Typography>
-        <Box display="flex" gap={2}>
-          <Card sx={{ px: 3, py: 1.5, minWidth: 180 }}>
-            <Typography variant="caption" color="text.secondary">
-              Current Rank - {runData.accumulatedPips} pip{runData.accumulatedPips !== 1 ? 's' : ''} accumulated
-            </Typography>
-            <Typography variant="h6" fontWeight={600} color="primary">
-              {runData.currentRank}
-            </Typography>
+      <Box display="flex" justifyContent="space-between" alignItems="flex-start" mb={3}>
+        <Box display="flex" gap={3} alignItems="center">
+          <Card sx={{ px: 3, py: 2 }}>
+            <Box display="flex" flexDirection="column" alignItems="center" gap={1}>
+              <RankChip rank={runData.currentRank} size="large" showLabel={false} />
+              <Typography variant="body2" fontWeight={600} color="primary" textAlign="center">
+                {runData.currentRank}
+              </Typography>
+              <PipDisplay 
+                currentPips={runData.accumulatedPips} 
+                maxPips={maxPips}
+                size="medium"
+              />
+              <Typography variant="caption" color="text.secondary">
+                {runData.accumulatedPips}/{maxPips} pips
+              </Typography>
+            </Box>
           </Card>
-          <CurrencyChip 
+          <Typography variant="h3" fontWeight={700} color="primary">
+            Current Run
+          </Typography>
+        </Box>
+        <CurrencyChip 
             amount={runData.currentFund} 
             label="Current Funds"
             showColor={false}
           />
-        </Box>
       </Box>
 
       <Grid container spacing={3}>

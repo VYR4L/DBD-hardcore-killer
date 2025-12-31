@@ -28,6 +28,7 @@ import { useRun } from '@/context/RunContext';
 import { useMatchLogic } from '@/hooks/useMatchLogic';
 import { useCurrency } from '@/hooks/useCurrency';
 import { PenaltyType, Match, Penalty, Bonus, BonusType, Rank } from '@/types';
+import { PerkChip } from '@components/atoms/PerkChip';
 
 const matchSchema = z.object({
   killerId: z.string().min(1, 'Please select a killer'),
@@ -442,6 +443,20 @@ export const MatchEntryForm: React.FC = () => {
                   Match Preview
                 </Typography>
                 <Grid container spacing={2}>
+                  {/* Selected Perks Display */}
+                  {(watchedValues.perk1 || watchedValues.perk2 || watchedValues.perk3 || watchedValues.perk4) && (
+                    <Grid item xs={12}>
+                      <Typography variant="caption" color="text.secondary" display="block" mb={1}>
+                        Selected Perks
+                      </Typography>
+                      <Box sx={{ display: 'flex', gap: 1, flexWrap: 'wrap' }}>
+                        {watchedValues.perk1 && <PerkChip perkId={watchedValues.perk1} size="small" showName={false} />}
+                        {watchedValues.perk2 && <PerkChip perkId={watchedValues.perk2} size="small" showName={false} />}
+                        {watchedValues.perk3 && <PerkChip perkId={watchedValues.perk3} size="small" showName={false} />}
+                        {watchedValues.perk4 && <PerkChip perkId={watchedValues.perk4} size="small" showName={false} />}
+                      </Box>
+                    </Grid>
+                  )}
                   <Grid item xs={6} sm={3}>
                     <Typography variant="caption" color="text.secondary">
                       Match Cost

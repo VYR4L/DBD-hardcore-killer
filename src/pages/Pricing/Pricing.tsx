@@ -19,6 +19,8 @@ import {
 import { Search } from '@mui/icons-material';
 import { DataService } from '@/services/DataService';
 import { KillerTier } from '@/types';
+import { PerkChip } from '@components/atoms/PerkChip';
+import { KillerChip } from '@components/atoms/KillerChip';
 
 const Pricing: React.FC = () => {
   // Load actual data from DataService
@@ -78,7 +80,9 @@ const Pricing: React.FC = () => {
       <TableBody>
         {tierKillers.map((killer) => (
         <TableRow key={killer.id}>
-          <TableCell>{killer.name}</TableCell>
+          <TableCell>
+            <KillerChip killerId={killer.id} size="medium" showName={true} showPrice={false} />
+          </TableCell>
           <TableCell align="right">
           <Chip 
             label={`$${killer.price}`} 
@@ -96,7 +100,7 @@ const Pricing: React.FC = () => {
   );
 
   return (
-    <Container maxWidth="lg" sx={{ py: 4 }}>
+    <Container maxWidth="xl" sx={{ py: 4 }}>
       <Typography variant="h3" gutterBottom fontWeight={700} color="primary">
         Pricing Guide
       </Typography>
@@ -213,7 +217,9 @@ const Pricing: React.FC = () => {
                 <TableBody>
                   {sortedPerks.map((perk) => (
                     <TableRow key={perk.id}>
-                      <TableCell>{perk.name}</TableCell>
+                      <TableCell>
+                        <PerkChip perkId={perk.id} size="medium" showName={true} />
+                      </TableCell>
                       <TableCell align="right">
                         <Chip 
                           label={`$${perk.price}`} 

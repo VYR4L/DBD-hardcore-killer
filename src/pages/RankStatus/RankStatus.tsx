@@ -16,6 +16,7 @@ import {
 import { RankCategory, PenaltyType, BonusType } from '@/types';
 import { useRun } from '@/context/RunContext';
 import { useCurrency } from '@/hooks/useCurrency';
+import { RankChip } from '@components/atoms/RankChip';
 
 const RankStatus: React.FC = () => {
   const theme = useTheme();
@@ -219,10 +220,17 @@ const RankStatus: React.FC = () => {
       sx={{ 
         fontWeight: 700,
         minWidth: 120,
-        color: getRankColor(rank),
       }}
       >
-      {rank}
+      {rank === RankCategory.COMBINED ? (
+        <Typography variant="body2" fontWeight={700} color={getRankColor(rank)}>
+          {rank}
+        </Typography>
+      ) : (
+        <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+          <RankChip rank={rank} size="small" showLabel={false} />
+        </Box>
+      )}
       </TableCell>
       ))}
       </TableRow>

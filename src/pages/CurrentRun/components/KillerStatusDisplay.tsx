@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import { Box, Grid, Card, CardContent, Typography, Chip } from '@mui/material';
 import { DataService } from '@/services/DataService';
 import { useRun } from '@/context/RunContext';
-import { StatusChip } from '@components/atoms/StatusChip';
+import { KillerChip } from '@components/atoms/KillerChip';
 
 export const KillerStatusDisplay: React.FC = () => {
   const { runData } = useRun();
@@ -21,7 +21,7 @@ export const KillerStatusDisplay: React.FC = () => {
     return { alive, cooldown, deceased, sold };
   }, [allKillers, runData]);
 
-  const renderKillerList = (killers: typeof allKillers, status: 'alive' | 'cooldown' | 'deceased' | 'sold') => (
+  const renderKillerList = (killers: typeof allKillers) => (
     <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
       {killers.length === 0 ? (
         <Typography variant="body2" color="text.secondary">
@@ -29,11 +29,12 @@ export const KillerStatusDisplay: React.FC = () => {
         </Typography>
       ) : (
         killers.map(killer => (
-          <StatusChip
+          <KillerChip
             key={killer.id}
-            label={`${killer.name} ($${killer.price})`}
-            status={status}
+            killerId={killer.id}
             size="small"
+            showName={false}
+            showPrice={false}
           />
         ))
       )}
@@ -51,7 +52,7 @@ export const KillerStatusDisplay: React.FC = () => {
               </Typography>
               <Chip label={killerStatus.alive.length} color="success" size="small" />
             </Box>
-            {renderKillerList(killerStatus.alive, 'alive')}
+            {renderKillerList(killerStatus.alive)}
           </CardContent>
         </Card>
       </Grid>
@@ -65,7 +66,7 @@ export const KillerStatusDisplay: React.FC = () => {
               </Typography>
               <Chip label={killerStatus.cooldown.length} color="warning" size="small" />
             </Box>
-            {renderKillerList(killerStatus.cooldown, 'cooldown')}
+            {renderKillerList(killerStatus.cooldown)}
           </CardContent>
         </Card>
       </Grid>
@@ -79,7 +80,7 @@ export const KillerStatusDisplay: React.FC = () => {
               </Typography>
               <Chip label={killerStatus.deceased.length} color="error" size="small" />
             </Box>
-            {renderKillerList(killerStatus.deceased, 'deceased')}
+            {renderKillerList(killerStatus.deceased)}
           </CardContent>
         </Card>
       </Grid>
@@ -93,7 +94,7 @@ export const KillerStatusDisplay: React.FC = () => {
               </Typography>
               <Chip label={killerStatus.sold.length} size="small" />
             </Box>
-            {renderKillerList(killerStatus.sold, 'sold')}
+            {renderKillerList(killerStatus.sold)}
           </CardContent>
         </Card>
       </Grid>

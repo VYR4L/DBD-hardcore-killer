@@ -14,6 +14,8 @@ import {
 import { useRun } from '@/context/RunContext';
 import { DataService } from '@/services/DataService';
 import { useCurrency } from '@/hooks/useCurrency';
+import { PerkChip } from '@components/atoms/PerkChip';
+import { KillerChip } from '@components/atoms/KillerChip';
 
 export const MatchHistoryTable: React.FC = () => {
   const { runData } = useRun();
@@ -50,10 +52,7 @@ export const MatchHistoryTable: React.FC = () => {
         <TableBody>
           {runData.matches.map((match) => {
             const killer = DataService.getKillerById(match.killerId);
-            const perkNames = Object.values(match.perks)
-              .filter(Boolean)
-              .map(perkId => DataService.getPerkById(perkId!)?.name || 'Unknown')
-              .join(', ');
+            const perkIds = Object.values(match.perks).filter(Boolean) as string[];
 
             return (
               <TableRow key={match.matchNumber}>
@@ -61,9 +60,23 @@ export const MatchHistoryTable: React.FC = () => {
                 <TableCell>
                   <Chip label={match.rank} size="small" />
                 </TableCell>
-                <TableCell>{killer?.name || 'Unknown'}</TableCell>
-                <TableCell sx={{ maxWidth: 200, overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                  {perkNames || 'None'}
+                <TableCell>
+                  {killer ? (
+                    <KillerChip killerId={killer.id} size="small" showName={false} />
+                  ) : (
+                    <Typography variant="caption" color="text.secondary">Unknown</Typography>
+                  )}
+                </TableCell>
+                <TableCell>
+                  <Box sx={{ display: 'flex', gap: 0.5, flexWrap: 'wrap' }}>
+                    {perkIds.length === 0 ? (
+                      <Typography variant="caption" color="text.secondary">None</Typography>
+                    ) : (
+                      perkIds.map((perkId) => (
+                        <PerkChip key={perkId} perkId={perkId} size="small" showName={false} />
+                      ))
+                    )}
+                  </Box>
                 </TableCell>
                 <TableCell align="right">
                   <Chip label={formatCurrency(match.matchCost)} size="small" />
