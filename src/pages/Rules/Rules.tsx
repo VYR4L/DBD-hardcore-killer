@@ -169,16 +169,16 @@ const Rules: React.FC = () => {
     </Typography>
     <List>
     <ListItem>
-    <ListItemText primary="Gen pops before first hook: -$3" />
+    <ListItemText primary="Gen pops before first hook: -$2" />
     </ListItem>
     <ListItem>
-    <ListItemText primary="Last gen completed: -$5" />
+    <ListItemText primary="Last gen completed: -$2" />
     </ListItem>
     <ListItem>
     <ListItemText primary="Exit door opened: -$5" />
     </ListItem>
     <ListItem>
-    <ListItemText primary="Survivor escapes through hatch: -$5" />
+    <ListItemText primary="Survivor escapes through hatch: -$4" />
     </ListItem>
     </List>
     </CardContent>
